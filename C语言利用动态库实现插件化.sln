@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C语言利用动态库实现插件化", "C语言利用动态库实现插件化\C语言利用动态库实现插件化.vcxproj", "{D37A3B48-1AED-4CCF-AB26-70954F91156B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "double-dll", "double-dll\double-dll.vcxproj", "{B27F15C0-B403-405D-A341-BC16FFE7C8CB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "square-dll", "square-dll\square-dll.vcxproj", "{92A6BA46-1DD4-444A-877F-3CE333424278}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cube-dll", "cube-dll\cube-dll.vcxproj", "{AB1A5853-A7FA-4021-90E0-1D83D415CA40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D37A3B48-1AED-4CCF-AB26-70954F91156B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D37A3B48-1AED-4CCF-AB26-70954F91156B}.Debug|Win32.Build.0 = Debug|Win32
+		{D37A3B48-1AED-4CCF-AB26-70954F91156B}.Release|Win32.ActiveCfg = Release|Win32
+		{D37A3B48-1AED-4CCF-AB26-70954F91156B}.Release|Win32.Build.0 = Release|Win32
+		{B27F15C0-B403-405D-A341-BC16FFE7C8CB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B27F15C0-B403-405D-A341-BC16FFE7C8CB}.Debug|Win32.Build.0 = Debug|Win32
+		{B27F15C0-B403-405D-A341-BC16FFE7C8CB}.Release|Win32.ActiveCfg = Release|Win32
+		{B27F15C0-B403-405D-A341-BC16FFE7C8CB}.Release|Win32.Build.0 = Release|Win32
+		{92A6BA46-1DD4-444A-877F-3CE333424278}.Debug|Win32.ActiveCfg = Debug|Win32
+		{92A6BA46-1DD4-444A-877F-3CE333424278}.Debug|Win32.Build.0 = Debug|Win32
+		{92A6BA46-1DD4-444A-877F-3CE333424278}.Release|Win32.ActiveCfg = Release|Win32
+		{92A6BA46-1DD4-444A-877F-3CE333424278}.Release|Win32.Build.0 = Release|Win32
+		{AB1A5853-A7FA-4021-90E0-1D83D415CA40}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB1A5853-A7FA-4021-90E0-1D83D415CA40}.Debug|Win32.Build.0 = Debug|Win32
+		{AB1A5853-A7FA-4021-90E0-1D83D415CA40}.Release|Win32.ActiveCfg = Release|Win32
+		{AB1A5853-A7FA-4021-90E0-1D83D415CA40}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
